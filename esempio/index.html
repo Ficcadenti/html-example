@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Soluzione Prova Pratica!</title>
+    </head>
+    <body>
+        <h1>Benvenuti Nel Nostro Sito!</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2>Crea un nuovo account!</h2>
+
+        <form action="" method="GET">
+            <div>
+                <input type="text" name="nome" placeholder="Nome" required>
+                <input type="text" name="cognome" placeholder="Cognome" required>
+            </div>
+            <div>
+                <input type="email" name="mail" placeholder="La Tua Email" required>
+            </div>
+            <div>
+                <input type="password" name="psw" placeholder="La Tua Password">
+            </div>
+            <label for="uomo">Uomo</label>
+            <input id="uomo" type="radio" name="genere" value="uomo">
+
+            <label for="donna">Donna</label>
+            <input id="donna" type="radio" name="genere" value="donna">
+
+            <br><br>
+
+            <label for="selezione">Come hai conosciuto il sito?</label>
+            <select name="conosciuto" id="selezione">
+                <option value="amici">Consigliato da Amici</option>
+                <option value="pubblicità">Annuncio Pubblicitario</option>
+                <option value="ricerca">Ricerca personale</option>
+                <option value="altro">Altro...</option>
+            </select>
+
+            <p><strong>Parlaci di te!</strong></p>
+            <textarea name="descrizione" rows="5" cols="40"></textarea>
+            <br><br>
+
+            <!-- checkbox: https://www.w3schools.com/tags/att_input_checked.asp -->
+
+            <input type="checkbox" name="condizione" value="accetto" required>Accetto le <a href="#">Condizioni d'Uso</a>
+            <br><br>
+            <input type="submit" value="Crea Account">
+        </form>
+
+
+    </body>
+</html>
